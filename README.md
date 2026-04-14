@@ -1,6 +1,6 @@
 # pi-nvidia-nim
 
-NVIDIA NIM API provider extension for [pi coding agent](https://github.com/badlogic/pi-mono) - access 100+ models from [build.nvidia.com](https://build.nvidia.com) including DeepSeek V3.2, Kimi K2.5, MiniMax M2.1, GLM-5, GLM-4.7, Qwen3, Llama 4, and many more.
+NVIDIA NIM API provider extension for [pi coding agent](https://github.com/badlogic/pi-mono) - access 100+ models from [build.nvidia.com](https://build.nvidia.com) including DeepSeek V3.2, Kimi K2.5, MiniMax M2.7, GLM-5, GLM-4.7, Qwen3, Llama 4, and many more.
 
 https://github.com/user-attachments/assets/f44773e4-9bf8-4bb5-a9c0-d5938030701c
 
@@ -27,7 +27,7 @@ Add this to your `~/.bashrc`, `~/.zshrc`, or shell profile to persist it.
 **As a pi package (recommended):**
 
 ```bash
-pi install git:github.com/xRyul/pi-nvidia-nim
+pi install git:github.com/timm-u/pi-nvidia-nim
 ```
 
 **Or load directly:**
@@ -91,7 +91,7 @@ When you change the thinking level in pi (`Shift+Tab` to cycle), the extension:
 
 ## Available Models
 
-The extension ships with curated metadata for 39 featured models. At startup, it also queries the NVIDIA NIM API to discover additional models automatically.
+The extension ships with curated metadata for 43 featured models. At startup, it also queries the NVIDIA NIM API to discover additional models automatically.
 
 ### Featured Models
 
@@ -101,7 +101,7 @@ The extension ships with curated metadata for 39 featured models. At startup, it
 | `deepseek-ai/deepseek-v3.1` | ✅ | | 128K |
 | `moonshotai/kimi-k2.5` | ✅ | | 256K |
 | `moonshotai/kimi-k2-thinking` | ✅ | | 128K |
-| `minimaxai/minimax-m2.1` | | | 1M |
+| `minimaxai/minimax-m2.7` | | | 204.8K |
 | `z-ai/glm5` | ✅ | | 128K |
 | `z-ai/glm4.7` | ✅ | | 128K |
 | `openai/gpt-oss-120b` | | | 128K |

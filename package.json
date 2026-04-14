@@ -14,7 +14,7 @@
     "extensions": [
       "./index.ts"
     ],
-    "video": "https://raw.githubusercontent.com/xRyul/pi-nvidia-nim/main/video_demo_psnr.mp4"
+    "video": "https://raw.githubusercontent.com/timm-u/pi-nvidia-nim/dev/video_demo_psnr.mp4"
   },
   "scripts": {
     "clean": "echo 'nothing to clean'",
@@ -29,8 +29,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xRyul/pi-nvidia-nim.git"
+    "url": "https://github.com/timm-u/pi-nvidia-nim.git"
   },
-  "homepage": "https://github.com/xRyul/pi-nvidia-nim",
+  "homepage": "https://github.com/timm-u/pi-nvidia-nim",
   "license": "MIT"
 }
