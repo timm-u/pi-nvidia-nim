@@ -475,6 +475,10 @@ function nimStreamSimple(
 	context: Context,
 	options?: SimpleStreamOptions,
 ): AssistantMessageEventStream {
+	if (model.provider !== PROVIDER_NAME) {
+		return streamSimpleOpenAICompletions(model as Model<"openai-completions">, context, options);
+	}
+
 	const thinkingConfig = THINKING_CONFIGS[model.id];
 	const reasoning = options?.reasoning;
 	const isThinkingEnabled = !!reasoning;
